@@ -111,6 +111,7 @@ It's copy of our example file `config.json.sample`. More or less it looks like:
 |               | size          | String  | Image dimensions. [See ImageMagick geometry documentation](http://imagemagick.org/script/command-line-processing.php#geometry).                  |
 |               | format        | String  | Image format override. If not supplied, it will leave the image in original format.                                                              |
 |               | crop          | String  | Dimensions to crop the image. [See ImageMagick crop documentation](http://imagemagick.org/script/command-line-options.php#crop).                 |
+|               | trim          | Boolean | Trims corner pixels. [See ImageMagick trim documentation](http://imagemagick.org/script/command-line-options.php#tim)							 |
 |               | gravity       | String  | Changes how `size` and `crop`. [See ImageMagick gravity documentation](http://imagemagick.org/script/command-line-options.php#gravity).          |
 |               | quality       | Number  | Determine reduced image quality ( forces format `JPG` ).                                                                                         |
 |               | jpegOptimizer | String  | Determine optimiser that should be used `mozjpeg` (default) or `jpegoptim` ( only `JPG` ).                                                       |
